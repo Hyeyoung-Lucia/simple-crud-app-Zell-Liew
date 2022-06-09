@@ -2,7 +2,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const MongoClient = require("mongodb").MongoClient;
 const connectionString =
-  "mongodb+srv://yoda:yoda@cluster0.k5eqifw.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://<Database>:<password>@cluster0.k5eqifw.mongodb.net/?retryWrites=true&w=majority";
 
 const app = express();
 
